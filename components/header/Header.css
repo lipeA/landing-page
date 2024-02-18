@@ -1,6 +1,7 @@
 .container{
     background-color:var(--purple-colors);
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
