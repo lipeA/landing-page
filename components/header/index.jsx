@@ -2,6 +2,7 @@ import Logo from '../../public/imagens/logo.svg';
 import Imagem from 'next/image'
 import Link from "next/link";
 import './Header.css'
+import Button from '../button';
 
 
 export default function Header() {
@@ -19,7 +20,7 @@ export default function Header() {
                     </ul>
                 </div>
                 <div>
-                    <button className='buttonMenu'>Fale conosco</button>
+                   <Button title="fale conosco"/>
                 </div>
             </div>
         </>
